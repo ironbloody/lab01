@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Blog_ironbloody</title>
+	<link rel="stylesheet" href="Imagen.css">
+  </head>
+  <body>
+		<div class="inicio">
+		<!-- Contenido principal -->
+		<img width="100" height="100" src="juegos.png" class="center">
+		<h1 style="text-align:center">Bienvenidos a mi pagina</h1>
+
+		<p style="text-align:center">Les mostrare informacion sobre mi persona y cosas que podrian ser de interes</p>
+
+		<hr>
+		</div
+    <!-- Menú de navegación del sitio -->
+    <div class="container">
+      <div class="image">
+        <img width="400" height="400" src="personal.jpg">
+      </div>
+      <div class="text">
+        <a href="Informacion_personal.html" class="link">
+		<div class="link">
+			<h2>Informacion familiar</h2>
+			<p> Aqui les hablare un poco de mi y de mi familia
+			</p>
+		</div>
+		</a>
+      </div>
+    </div>
+	
+	<div class="container">
+		<div class="image">
+			<img width="400" height="500" src="hobbies.jpg">
+		</div>
+		<div class="text">
+			<a href="Mis_hobbies.html" class="link">
+			<div class="link">
+			<h2>Mis Hobbies</h2>
+			<p> Hola esta es mi informacion familiar
+			</p>
+			</div>
+		</a>
+		</div>
+	 </div>
+ 
+	
+	<div class="container">
+		<div class="image">
+			<img width="400" height="300" src="plane.png">
+		</div>
+		<div class="text">
+			<a href="Mis_viajes.html" class="link">
+			<div class="link">
+				<h2>Mis viajes</h2>
+				<p> Hola esta es mi informacion personal
+				</p>
+			</div>
+		</a>
+		</div>
+	 </div>
+	<!-- 
+	<div class="container">
+      <div class="image">
+        <img width="500" height="400" src="">
+      </div>
+      <div class="text">
+        <a href="index4.html"></a>
+      </div>
+    </div>
+	Aquí puedes escribir tu comentario -->
+	<script>
+	// When the user scrolls down 20px from the top of the document, slide down the navbar
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		document.getElementById("navbar").style.top = "0";
+	  } else {
+		document.getElementById("navbar").style.top = "-50px";
+	  }
+	}
+	</script>
+	
+  </body>
+</html>
